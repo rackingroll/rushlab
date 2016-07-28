@@ -11,5 +11,7 @@
 
 'research.php' is the research introducing page.
 
+'assets' stores all the css that used in this project.
 
+'images' stores all the images used in this project.
 
