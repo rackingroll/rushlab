@@ -328,7 +328,7 @@ a:hover {
 }
 
 .span3 {
-  width: 220px;
+  width: 100%;
 }
 
 .span2 {
@@ -405,7 +405,7 @@ a:hover {
 
 .row-fluid [class*="span"] {
   display: block;
-  float: left;
+  float: center;
   width: 100%;
   min-height: 30px;
   margin-left: 2.127659574468085%;
@@ -3896,6 +3896,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav > li > a {
+	float: left;
   display: block;
 }
 
@@ -3909,7 +3910,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav > .pull-right {
-  float: right;
+  float: left;
 }
 
 .nav-header {
@@ -3928,6 +3929,13 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-list {
+	
+  margin-left:auto;
+  margin-right:auto; 
+  width:auto;
+  height:auto;
+  border:1.5px solid #000000;
+  
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 0;
@@ -3935,13 +3943,14 @@ input[type="submit"].btn.btn-mini {
 
 .nav-list > li > a,
 .nav-list .nav-header {
-  margin-right: -15px;
-  margin-left: -15px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  margin-right: 15px;
+  margin-left: 15px;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  float:center;
 }
 
 .nav-list > li > a {
-  padding: 3px 15px;
+  padding: 3px 3px; 
 }
 
 .nav-list > .active > a,
@@ -3959,8 +3968,8 @@ input[type="submit"].btn.btn-mini {
 .nav-list .divider {
   *width: 100%;
   height: 1px;
-  margin: 9px 1px;
-  *margin: -5px 0 5px;
+  *margin: 2px 1px;
+  margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
